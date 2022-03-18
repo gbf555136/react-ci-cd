@@ -11,6 +11,13 @@ function App() {
       >
         +1
       </button>
+      <button
+        onClick={() => {
+          setCount(count - 1);
+        }}
+      >
+        -1
+      </button>
     </div>
   );
 }
