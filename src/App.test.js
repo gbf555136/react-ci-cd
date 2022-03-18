@@ -29,5 +29,5 @@ test("點擊兩次-後，點擊次數:-2", () => {
   fireEvent.click(button);
   fireEvent.click(button);
   const title = screen.getByTestId("counter");
-  expect(title.innerHTML).toBe("點擊次數:-3");
+  expect(title.innerHTML).toBe("點擊次數:-2");
 });
